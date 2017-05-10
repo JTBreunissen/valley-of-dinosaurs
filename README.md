@@ -1,24 +1,15 @@
-# README
+# Valley of Dinosaurs
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Ruby on Rails app as result of an assignment during the beginner bootcamp @ Codaisseur Academy. 
 
-Things you may want to cover:
+This app taught me the basics of Rails and Crud Management
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Run the app
+1. `Install [Ruby](https://www.ruby-lang.org/en/), [Bundler](http://bundler.io/) and [Postgresql](https://www.postgresql.org/)`
+2. `git clone git@github.com:JTBreunissen/valley-of-dinosaurs.git`
+3. `cd valley-of-dinosaurs`
+4. `rails db:create`
+5. `rails db:migrate`
+6. `rails db:seed`
+7. `run bundle install`
+8. `rails s`
